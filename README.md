@@ -58,3 +58,18 @@ To run this application locally, you'll need the following:
     npm install inquirer qr-image
      ```
 
+## Contributing
+
+If you want to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch with a descriptive name for your feature or bug fix.
+
+3. Make your changes and commit them.
+
+4. Push your branch to your forked repository.
+
+5. Submit a pull request, detailing the changes you made and the problem it solves.
+
+6. Be open to feedback and be ready to make changes if requested.
