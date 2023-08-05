@@ -1,0 +1,16 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "Generates qr code for a particular url and stores that url in a text file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yamuna Raja",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "qr-image": "^3.2.0"
+  }
+}
