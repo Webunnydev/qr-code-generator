@@ -45,3 +45,16 @@ To run this application locally, you'll need the following:
 
 - Node.js 
 - npm (Node Package Manager)
+
+## Installation
+
+1. Clone this repository to your local machine using bash
+2. Navigate to the project directory:
+   ```
+   cd qr-code-generator
+   ```
+3. Install the required dependencies:
+    ```
+    npm install inquirer qr-image
+     ```
+
