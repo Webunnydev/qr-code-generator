@@ -4,7 +4,7 @@ A simple QR code generator web application built using Node.js and a QR code gen
 
 ## Table of Contents
 - [Description](#description)
-- [QR Code Generator Screenshot](#QR)
+- [Demo](#demo)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -17,8 +17,7 @@ The QR Code Generator is a web application that allows users to generate QR code
 
 The application uses Node.js on the server side to handle requests, and a QR code generation library to generate the QR codes dynamically. It also saves the URL of the QR code to a text file.
 
-## QR Code Generator Screenshot
-
+## Demo
 1. Input the URL
    ![ss1](https://github.com/Webunnydev/qr-code-generator/assets/90133602/324f8d83-770a-4bcb-a2c7-3b6b5d758d1e)
    ![ss2](https://github.com/Webunnydev/qr-code-generator/assets/90133602/f81821f0-564c-49a5-9a9b-3e29df1cb655)
@@ -33,5 +32,10 @@ The application uses Node.js on the server side to handle requests, and a QR cod
 5. qr_url.txt
    ![ss5](https://github.com/Webunnydev/qr-code-generator/assets/90133602/287e2ec6-89f0-4cd0-beee-4eba5c65e57b)
 
+## Features
 
+- Generate QR codes for URLs.
+- Saves the URL to a text file.
+- Download generated QR codes as PNG or SVG files.
+- Responsive and mobile-friendly design.
 
