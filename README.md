@@ -39,3 +39,9 @@ The application uses Node.js on the server side to handle requests, and a QR cod
 - Download generated QR codes as PNG or SVG files.
 - Responsive and mobile-friendly design.
 
+## Requirements
+
+To run this application locally, you'll need the following:
+
+- Node.js 
+- npm (Node Package Manager)
