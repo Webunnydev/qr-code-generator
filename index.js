@@ -1,5 +1,6 @@
 import inquirer from "inquirer";
 import qr from "qr-image";
+import fs from "fs";
 
 inquirer
   .prompt([
@@ -10,11 +11,12 @@ inquirer
   .then((answers) => {
     const qr_code = answers.qr_url;
     console.log(qr_code);
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
+
+    var qr_svg = qr.image(qr_code);
+    qr_svg.pipe(fs.createWriteStream('qr_code.png'));
+
+    fs.writeFile("qr_url.txt", qr_code, (err)=>{
+        if (err) throw err;
+        console.log("QR code generated successfully");
+    });
   });
