@@ -8,7 +8,6 @@ A simple QR code generator web application built using Node.js and a QR code gen
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
  
 ## Description
